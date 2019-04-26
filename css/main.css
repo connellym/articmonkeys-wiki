@@ -1,0 +1,170 @@
+/* too hide parts of website -
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;} /* 1 */
+
+
+  p {
+    border: .5px solid red;
+  }
+  html{
+    font:100%/1.15 sans-serif
+  }
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+/*"..(directory)/img(folder)/filename.type");*/ /*for background images set a folder*/
+body {
+  background: #000 url("../img/100.jpg");
+  background-position:#000 left;
+}
+
+  body{
+    padding: 2em;
+    border: 1px dashed
+    border-top: 1em solid #f00;
+  margin: 2em;
+  }
+  body{
+  font-family:Georgia, "Times New Roman"
+}
+h1,
+h2,
+h3{font-family: trebuchet;
+text-transform: uppercase;
+}
+
+
+
+    body{
+      color:#FFFFFF
+    }
+html{
+  font:100%/1.15 sans-serif
+}
+h1,
+h2,
+h3,{
+  margin-top: 5;
+  margin-bottom: 0;
+}
+dl,
+ol,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+dd{margin-left: 0;}
+
+
+img{
+width:auto;
+max-width: 100%;
+height:auto;
+}
+ul{margin-left:0;}
+ul{padding-left: 1.15em;}
+
+/*
+nav li {
+  display: inline;
+}
+nav a {
+  display: inline-block;
+}
+
+  nav a {
+    display: inline-block;
+    color: 	#B22222;
+    text-decoration: none;
+    padding: 1.5em;
+    border: 1px solid 	#B22222;
+    background-color: #	#B22222;
+  }
+
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    color: 	#B22222;
+    text-decoration: none;
+  }
+  nav a:active {
+    color: 	#B22222;
+  }
+  */
+
+nav {
+  float: right;
+}
+
+
+
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+
+nav a {
+  color: #FF0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+}
+
+dd{margin-left: 0;}
+
+ul{margin-left:0;}
+ul{padding-left: 1.15em;}
+
+body{
+  padding-bottom: 10em;
+}
+
+h1,
+h2,
+h3,
+h4{
+  font-family:impact;
+}
+h1,
+h2,
+h3,
+h4{
+  font-size: 3em;
+}
